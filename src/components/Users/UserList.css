@@ -1,0 +1,24 @@
+.user-list {
+  width: 50vw;
+}
+.user-list .user-list__user {
+  background: #eee;
+  font-size: 28px;
+  padding-left: 10px;
+  height: 52px;
+  line-height: 52px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.user-list .user-list__user:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+.user-list .user-list__buttons {
+  position: absolute;
+  top: -4px;
+  right: 0;
+  height: 100%;
+}
